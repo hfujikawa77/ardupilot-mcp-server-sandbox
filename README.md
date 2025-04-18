@@ -16,15 +16,15 @@ https://youtu.be/y1WE1cDC54Y?si=iy6vdGl38aTRcFcF
 
 ## Mission Planner のシミュレータを使う場合
 
-MAVLinkのSITL（Software In The Loop）シミュレーションを簡単に試すには、[Mission Planner](https://ardupilot.org/planner/) の内蔵シミュレータを使うのが便利です。
+ArduPilotドローンのシミュレーションを簡単に試すには、[Mission Planner](https://ardupilot.org/planner/) の内蔵シミュレータを使うのが便利です。
 
 1. Mission Planner をインストール
-2. 起動後、右上の「SETTINGS」タブを開く
-3. メニュー下部の「Simulation」セクションにある「SITL」を選択
-4. 「QuadPlane」などの機体タイプを選び、「Start SITL」をクリック
-5. ArduPilot が `tcp:127.0.0.1:5762` で待ち受けを開始します
+2. 起動後、上部メニューの `シミュレーション` ボタンをクリック
+3. 次の画面で `Multirotor（マルチローター）` を選択
+4. ダイアログの `Stable` ボタンをクリック
+5. ArduPilotシミュレータが起動し、tcp:127.0.0.1:5762 で待ち受けを開始します
 
-> ※初回起動にはダウンロードが必要な場合があります
+![alt text](image-1.png)
 
 ## セットアップ手順
 
